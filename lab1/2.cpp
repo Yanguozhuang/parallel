@@ -3,7 +3,7 @@
 #include <cmath>
 using namespace std;
 long long int n;
-long long int a[2200000000];
+long long int a[220000000];
 void init()
 {
     for (int i = 0; i < n; i++)
