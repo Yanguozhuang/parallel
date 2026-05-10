@@ -1,0 +1,54 @@
+bidiagonalization.cpp:293:22: optimized:   Inlining void vst1q_f64(float64_t*, float64x2_t)/4231 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:292:29: optimized:   Inlining float64x2_t vfmsq_f64(float64x2_t, float64x2_t, float64x2_t)/2892 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:291:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:290:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:285:40: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:274:56: optimized:   Inlining float64_t vgetq_lane_f64(float64x2_t, int)/1344 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:274:31: optimized:   Inlining float64_t vgetq_lane_f64(float64x2_t, int)/1344 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:272:28: optimized:   Inlining float64x2_t vfmaq_f64(float64x2_t, float64x2_t, float64x2_t)/2872 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:271:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:270:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:266:38: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:252:22: optimized:   Inlining void vst1q_f64(float64_t*, float64x2_t)/4231 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:251:27: optimized:   Inlining float64x2_t vfmsq_f64(float64x2_t, float64x2_t, float64x2_t)/2892 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:250:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:249:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:244:40: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:233:55: optimized:   Inlining float64_t vgetq_lane_f64(float64x2_t, int)/1344 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:233:30: optimized:   Inlining float64_t vgetq_lane_f64(float64x2_t, int)/1344 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:230:28: optimized:   Inlining float64x2_t vfmaq_f64(float64x2_t, float64x2_t, float64x2_t)/2872 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:229:39: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:228:39: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:224:38: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:165:22: optimized:   Inlining void vst1q_f64(float64_t*, float64x2_t)/4231 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:164:27: optimized:   Inlining float64x2_t vfmsq_f64(float64x2_t, float64x2_t, float64x2_t)/2892 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:163:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:162:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:157:40: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:146:56: optimized:   Inlining float64_t vgetq_lane_f64(float64x2_t, int)/1344 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:146:31: optimized:   Inlining float64_t vgetq_lane_f64(float64x2_t, int)/1344 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:143:28: optimized:   Inlining float64x2_t vfmaq_f64(float64x2_t, float64x2_t, float64x2_t)/2872 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:142:39: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:141:39: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:137:38: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:123:22: optimized:   Inlining void vst1q_f64(float64_t*, float64x2_t)/4231 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:122:27: optimized:   Inlining float64x2_t vfmsq_f64(float64x2_t, float64x2_t, float64x2_t)/2892 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:121:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:120:41: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:115:40: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:103:22: optimized:   Inlining void vst1q_f64(float64_t*, float64x2_t)/4231 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:102:27: optimized:   Inlining float64x2_t vfmaq_f64(float64x2_t, float64x2_t, float64x2_t)/2872 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:101:39: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:100:39: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2953 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+bidiagonalization.cpp:96:37: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2747 into Matrix to_bidiagonal(const Matrix&, Matrix&, Matrix&)/5260 (always_inline).
+gkh.cpp:47:18: optimized:   Inlining void vst1q_f64(float64_t*, float64x2_t)/4235 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:46:18: optimized:   Inlining void vst1q_f64(float64_t*, float64x2_t)/4235 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:44:38: optimized:   Inlining float64x2_t vfmaq_f64(float64x2_t, float64x2_t, float64x2_t)/2876 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:44:38: optimized:   Inlining float64x2_t vmulq_f64(float64x2_t, float64x2_t)/1099 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:41:38: optimized:   Inlining float64x2_t vfmaq_f64(float64x2_t, float64x2_t, float64x2_t)/2876 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:41:38: optimized:   Inlining float64x2_t vmulq_f64(float64x2_t, float64x2_t)/1099 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:38:35: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2957 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:37:35: optimized:   Inlining float64x2_t vld1q_f64(const float64_t*)/2957 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:32:34: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2751 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:31:34: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2751 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
+gkh.cpp:30:34: optimized:   Inlining float64x2_t vdupq_n_f64(float64_t)/2751 into void {anonymous}::apply_left_rows(Matrix&, int, int, double, double)/5256 (always_inline).
