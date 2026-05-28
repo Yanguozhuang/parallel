@@ -62,64 +62,32 @@ namespace
     static void apply_right_cols(Matrix &M, int c0, int c1, double c, double s)
     {
             const int rows = M.rows();
-
     const float64x2_t vc  = vdupq_n_f64(c);
-
     const float64x2_t vs  = vdupq_n_f64(s);
-
     const float64x2_t vns = vdupq_n_f64(-s);
 
-
-
     int i = 0;
-
-
-
     for (; i <= rows - 2; i += 2)
-
     {
-
-        // 行主序：同列的相邻两行元素不连续，必须手动 gather
-
         float64x2_t va = {M.at(i, c0), M.at(i+1, c0)};  // [M(i,c0),   M(i+1,c0)]
-
         float64x2_t vb = {M.at(i, c1), M.at(i+1, c1)};  // [M(i,c1),   M(i+1,c1)]
 
-
-
         // new_c0 = a*c - b*s
-
         float64x2_t new_c0 = vfmaq_f64(vmulq_f64(va, vc), vns, vb);  // 用 -s 变减为加
-
         // new_c1 = a*s + b*c
-
         float64x2_t new_c1 = vfmaq_f64(vmulq_f64(va, vs), vc, vb);
-
-
-
         // scatter 写回：同样不连续，逐元素写
-
         M.at(i,   c0) = vgetq_lane_f64(new_c0, 0);
-
         M.at(i+1, c0) = vgetq_lane_f64(new_c0, 1);
-
         M.at(i,   c1) = vgetq_lane_f64(new_c1, 0);
-
         M.at(i+1, c1) = vgetq_lane_f64(new_c1, 1);
-
     }
     // 尾部奇数行
-
     for (; i < rows; ++i)
-
     {
-
         double a = M.at(i, c0);
-
         double b = M.at(i, c1);
-
         M.at(i, c0) = a * c - b * s;
-
         M.at(i, c1) = a * s + b * c;
     }
     }
